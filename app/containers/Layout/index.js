@@ -58,10 +58,10 @@ export function Layout(props) {
         <ListMobile>
           <ItemMobile>
             <LinkMobile
-              selected={pathname === '/who-we-are'}
-              href="/who-we-are"
+              selected={pathname === '/portafolio'}
+              href="/portafolio"
             >
-              Who We Are
+              Portafolio
             </LinkMobile>
           </ItemMobile>
           <ItemMobile>

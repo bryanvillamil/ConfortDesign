@@ -68,8 +68,8 @@ function Header(props) {
         <MenuDesktop>
           <List>
             <Item>
-              <Link selected={pathname === '/who-we-are'} href="/who-we-are">
-                Who We ARe
+              <Link selected={pathname === '/portafolio'} href="/portafolio">
+                Portafolio
               </Link>
             </Item>
             <Item>

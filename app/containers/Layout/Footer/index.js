@@ -14,9 +14,8 @@ function Footer() {
   return (
     <ContentFooter>
       <FooterLeft>
-        <Textinfo>1001 Brickell Bay Drive, Unit 1608</Textinfo>
-        <Textinfo>Miami, FL 33131</Textinfo>
-        <Textinfo>800-273-9715</Textinfo>
+        <Textinfo>Medellin</Textinfo>
+        <Textinfo>instagram:</Textinfo>
         {/* <Link
           href="mailto:nbathlantic@nbathlantic.com"
           className="emailDesktop"
@@ -25,14 +24,14 @@ function Footer() {
         </Link> */}
       </FooterLeft>
       <FooterCenter>
-        <TitleFooter>National Brokerage Atlantic</TitleFooter>
+        <TitleFooter>Confort Design</TitleFooter>
       </FooterCenter>
       <FooterRight>
-        <Textinfo>Copyright © 2019 NBAtlantic</Textinfo>
+        <Textinfo>Copyright © 2019 confortDesign</Textinfo>
         <Link href="/terms">Terms & Conditions</Link>
         <Link href="/privacy">Privacy Policy</Link>
-        <Link href="mailto:nbathlantic@nbathlantic.com" className="emailMobile">
-          nbatlantic@nbatlantic.com
+        <Link href="mailto:confortdesign@gmail.com" className="emailMobile">
+          confortdesign@gmail.com
         </Link>
       </FooterRight>
     </ContentFooter>
