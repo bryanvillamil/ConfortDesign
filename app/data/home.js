@@ -6,6 +6,7 @@ export const carouselHome = [
     description:
       'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
     button: 'Read More',
+    url: '/',
     image: 'https://i.imgur.com/ZXBtVw7.jpg',
     user: 'Luan Gjokaj',
     userProfile: 'https://i.imgur.com/JSW6mEk.png',
@@ -15,6 +16,7 @@ export const carouselHome = [
     description:
       'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
     button: 'Discover',
+    url: '/',
     image: 'https://i.imgur.com/DCdBXcq.jpg',
     user: 'Erich Behrens',
     userProfile: 'https://i.imgur.com/0Clfnu7.png',
@@ -24,6 +26,7 @@ export const carouselHome = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
     button: 'Buy now',
+    url: '/',
     image: 'https://i.imgur.com/DvmN8Hx.jpg',
     user: 'Bruno Vizovskyy',
     userProfile: 'https://i.imgur.com/4KeKvtH.png',
@@ -33,6 +36,7 @@ export const carouselHome = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
     button: 'Buy now',
+    url: '/',
     image: 'https://i.imgur.com/doDtEZf.jpg',
     user: 'Kmi Corrales',
     userProfile: 'https://i.imgur.com/4KeKvtH.png',

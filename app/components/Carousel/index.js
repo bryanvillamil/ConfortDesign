@@ -29,7 +29,9 @@ function Carousel() {
           <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
-            <button type="button">{item.button}</button>
+            <a className="button" href={item.url}>
+              {item.button}
+            </a>
           </div>
         </div>
       ))}

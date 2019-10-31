@@ -9,7 +9,7 @@ body {
   outline: none;
 }
 
-button {
+a.button {
   -webkit-appearance: none;
           appearance: none;
   -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
@@ -18,7 +18,6 @@ button {
          filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
-  border: none;
   background: #FFD800;
   border-radius: 30px;
   text-transform: uppercase;
@@ -27,13 +26,15 @@ button {
   font-weight: 400;
   font-size: 13px;
   cursor: cursor;
+  text-decoration: none;
+  color: #000;
 }
 
-button:hover {
+a.button:hover {
   color: #FFFFFF;
   background: #222222;
-  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-          filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  /* -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); */
+          /* filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); */
 }
 
 /* .wrapper {
