@@ -53,38 +53,22 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 25px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 25px;
     left: auto;
-}
-.slick-prev:before
-{
-    content: '←';
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: '→';
 }
 
 .slick-next
 {
-    right: -25px;
+    right: 25px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
-}
-.slick-next:before
-{
-    content: '>';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '<';
+    left: 25px;
 }
 
 /* Dots */
@@ -95,7 +79,8 @@
 
 .slick-dots {
   position: absolute;
-  bottom: -25px;
+  bottom: 60px;
+  z-index: 99;
   display: block;
   width: 100%;
   padding: 0;
