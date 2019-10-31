@@ -14,7 +14,7 @@ export const ContentCarousel = styled.div`
   width: 100%;
   position: relative;
   ${breakpoint('md')`
-    height: 95vh;
+    height: 100vh;
   `}
 `;
 

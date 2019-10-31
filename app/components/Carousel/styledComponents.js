@@ -1,15 +1,9 @@
 import styled from 'styled-components';
+import Slider from 'react-animated-slider';
 
-export const Img = styled.img`
-  display: flex;
-  object-fit: cover;
-  object-position: center;
-  width: 100%;
+export const ContentSlider = styled(Slider)`
+  position: relative;
   height: 100%;
-`;
-
-export const ItemSlider = styled.div`
-  display: flex;
+  overflow: hidden;
   width: 100%;
-  height: 100%;
 `;

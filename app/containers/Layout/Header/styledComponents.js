@@ -137,7 +137,7 @@ export const Link = styled.a`
   font-size: 1.2rem;
   text-decoration: none;
   transition: all 0.5s;
-  padding: 2.8rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   color: ${props =>
     props.selected ? `${colors.colorPrimary}` : `${colors.white}`};
   &:hover {

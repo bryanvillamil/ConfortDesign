@@ -31,8 +31,7 @@ const AppRoute = props => {
     title,
     ...rest
   } = props;
-  console.log('app props', props);
-  
+
   let allowRoute = true;
   if (requiredAuth) {
     allowRoute = requiredAuth(path);
