@@ -72,38 +72,36 @@ a.button:hover {
 
 .previousButton, .nextButton {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
+  bottom: 0;
+  margin: auto;
   z-index: 10;
-  background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
-  width: 32px;
-  height: 32px;
-  text-indent: -9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: all 0.5s;
 }
 
-.previousButton:hover, .nextButton:hover {
-  background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
-}
-
 .previousButton {
-  left: 10px;
-  -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
-          transform: rotate(180deg) translateY(calc(50% + 0px));
-}
-
-.previousButton:hover {
-  left: 0px;
+  left: 4%;
 }
 
 .nextButton {
-  right: 10px;
+  right: 7%;
 }
 
+.previousButton:hover,
 .nextButton:hover {
-  right: 0px;
+  transform: scale(1.1);
 }
+
+.previousButton svg,
+.nextButton svg {
+  position: absolute;
+  left: 0;
+}
+
 
 .slider-content {
   text-align: center;
