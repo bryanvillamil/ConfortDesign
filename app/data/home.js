@@ -42,3 +42,34 @@ export const carouselHome = [
     userProfile: 'https://i.imgur.com/4KeKvtH.png',
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    image: 'https://i.imgur.com/DCdBXcq.jpg',
+    name: 'project 1',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
+  },
+  {
+    id: 2,
+    image: 'https://i.imgur.com/doDtEZf.jpg',
+    name: 'project 2',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
+  },
+  {
+    id: 3,
+    image: 'https://i.imgur.com/ZXBtVw7.jpg',
+    name: 'project 3',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
+  },
+  {
+    id: 4,
+    image: 'https://i.imgur.com/DvmN8Hx.jpg',
+    name: 'project 4',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
+  },
+];

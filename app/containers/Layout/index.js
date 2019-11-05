@@ -1,4 +1,3 @@
-/* eslint-disable import/named */
 /**
  *
  * Layout
@@ -14,7 +13,7 @@ import { compose } from 'redux';
 
 import { useInjectSaga } from 'utils/injectSaga';
 import { useInjectReducer } from 'utils/injectReducer';
-import withViewportHandler from '../../components/WithViewportHandler';
+import withViewportHandler from '../../components/withViewportHandler';
 import makeSelectLayout from './selectors';
 import reducer from './reducer';
 import saga from './saga';
@@ -34,27 +33,27 @@ export function Layout(props) {
   useInjectReducer({ key: 'layout', reducer });
   useInjectSaga({ key: 'layout', saga });
 
-  const [Open, setOpen] = useState(false);
+  const [OpenMenu, setOpenMenu] = useState(false);
 
   const { viewport, pathname, title } = props;
 
   const handleClick = () => {
-    setOpen(!Open);
+    setOpenMenu(!OpenMenu);
   };
 
   return (
-    <GeneralContainer className={Open ? 'MenuIsOpen' : ''}>
+    <GeneralContainer className={OpenMenu ? 'MenuIsOpen' : ''}>
       <Header
         viewport={viewport}
         handleClick={handleClick}
-        Open={Open}
+        OpenMenu={OpenMenu}
         pathname={pathname}
         titleHeader={title}
       />
       <Content>{props.children}</Content>
       <Footer />
 
-      <MenuMobile className={Open ? 'MenuIsOpen' : ''} id="menuMobile">
+      <MenuMobile className={OpenMenu ? 'MenuIsOpen' : ''} id="menuMobile">
         <ListMobile>
           <ItemMobile>
             <LinkMobile

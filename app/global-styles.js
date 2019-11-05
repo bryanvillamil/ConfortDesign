@@ -8,6 +8,12 @@ export const colors = {
   error: 'rgb(164, 38, 44)',
 };
 
+export const centerFlex = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+};
+
 const GlobalStyle = createGlobalStyle`
   html,
   body {
@@ -25,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #app {
-    background-color: #fafafa;
+    background-color: #fff;
     min-height: 100%;
     min-width: 100%;
   }

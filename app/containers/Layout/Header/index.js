@@ -21,7 +21,7 @@ function Header(props) {
   const {
     viewport: { isMobileView },
     pathname,
-    Open,
+    OpenMenu,
     handleClick,
     titleHeader,
   } = props;
@@ -49,13 +49,13 @@ function Header(props) {
             ''
           )}
 
-          <Hamburger className={Open ? 'isOpen' : ''}>
+          <Hamburger className={OpenMenu ? 'isOpen' : ''}>
             <HamburgerMenu
-              isOpen={Open}
+              isOpen={OpenMenu}
               menuClicked={handleClick}
               width={24}
               height={17}
-              strokeWidth={1.7}
+              strokeWidth={2}
               rotate={0}
               color="#fff"
               borderRadius={0}
@@ -92,7 +92,7 @@ function Header(props) {
 Header.propTypes = {
   viewport: PropTypes.object.isRequired,
   pathname: PropTypes.string.isRequired,
-  Open: PropTypes.bool.isRequired,
+  OpenMenu: PropTypes.bool.isRequired,
   handleClick: PropTypes.func.isRequired,
 };
 

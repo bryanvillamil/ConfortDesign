@@ -1,6 +1,6 @@
 /**
  *
- * Tests for Layout
+ * Tests for Modal
  *
  * @see https://github.com/react-boilerplate/react-boilerplate/tree/master/docs/testing
  *
@@ -11,16 +11,15 @@ import { render } from 'react-testing-library';
 import { IntlProvider } from 'react-intl';
 // import 'jest-dom/extend-expect'; // add some helpful assertions
 
-import { Layout } from '../index';
+import Modal from '../index';
 import { DEFAULT_LOCALE } from '../../../i18n';
 
-describe('<Layout />', () => {
+describe('<Modal />', () => {
   it('Expect to not log errors in console', () => {
     const spy = jest.spyOn(global.console, 'error');
-    const dispatch = jest.fn();
     render(
       <IntlProvider locale={DEFAULT_LOCALE}>
-        <Layout dispatch={dispatch} />
+        <Modal />
       </IntlProvider>,
     );
     expect(spy).not.toHaveBeenCalled();
@@ -40,7 +39,7 @@ describe('<Layout />', () => {
       container: { firstChild },
     } = render(
       <IntlProvider locale={DEFAULT_LOCALE}>
-        <Layout />
+        <Modal />
       </IntlProvider>,
     );
     expect(firstChild).toMatchSnapshot();

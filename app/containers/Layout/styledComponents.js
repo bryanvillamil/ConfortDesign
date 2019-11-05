@@ -50,6 +50,7 @@ export const MenuMobile = styled.div`
   transition: transform 300ms, -webkit-transform 300ms;
   top: 0;
   z-index: 99;
+  position: fixed;
   &.MenuIsOpen {
     -webkit-transform: none;
     transform: none;

@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 /* eslint-disable react/no-array-index-key */
 /**
  *
@@ -30,7 +29,8 @@ function Carousel(props) {
 
   return (
     <ContentSlider
-      autoplay={5000}
+      autoplay={4000}
+      duration={2000}
       nextButton={
         <FontAwesomeIcon
           size={isMobileView ? '2x' : '3x'}

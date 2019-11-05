@@ -32,3 +32,13 @@ export const Diagonal = styled.div`
     bottom: -2px;
   `}
 `;
+
+export const ContentProjects = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: 4rem 0;
+  background: #fff;
+`;
