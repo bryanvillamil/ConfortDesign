@@ -11,10 +11,8 @@ export const BoxItem = styled.div`
   position: relative;
   transition: all 0.5s;
   background-position: center;
-  &:hover {
-    background-image: url(${props => `${props.image}`});
-    background-size: cover;
-  }
+  background-image: url(${props => `${props.image}`});
+  background-size: cover;
   ${breakpoint('sm')`
     width: 50%;
   `}

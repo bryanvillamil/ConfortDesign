@@ -39,6 +39,6 @@ export const ContentProjects = styled.div`
   height: auto;
   width: 100%;
   position: relative;
-  padding: 4rem 0;
+  padding: 0 0 3rem;
   background: #fff;
 `;
